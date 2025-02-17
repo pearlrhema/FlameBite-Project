@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlameBite</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="js/main.js" type="module"></script>
+</head>
+
+<body>
+  <header class="divider" id="mainheader"></header>
+  <main class="divider">
+    <div class="hero">
+      <img src="/images/banner-sm.jpg" srcset="images/banner-sm.jpg 500w, images/banner.jpg"
+        alt="image of a high mountain lake" />
+      <div class="logo logo--square">
+        <!-- <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" /> -->
+        <img src="/images/logo-img.PNG" alt="image for logo" />
+
+        <div><span class="highlight">FlameBite</span></div>
+      </div>
+    </div>
+    <section class="mission">
+      <!-- <p>We spend too much time these days indoors...sitting usually.</p> -->
+      <p>Why worry about the stres of booking for your meal reservation and going to get your cooking gas refilled.
+        <span class="highlight">FlameBite</span> is your one stop hub for schedulling but your meal reservation and
+        ordering for your gas delivery
+      </p>
+      <p><span class="highlight">Save yourself the stress!</span></p>
+      <p>
+        What we really need is efficiency in managing both dinner reservations and home services, a streamlined and
+        user-friendly experience for customers at an affordable price. At <span class="highlight">FlameBite</span> we
+        got you covered
+      </p>
+    </section>
+    <section class="products">
+      <ul class="product-grid">
+        <li>
+          <a href="product-listing/index.html?category=sleeping-bags">
+            <img src="/images/restaurant.svg" alt="Sleeping Bag Icon from Noun Project: Mustofa Bayu" />
+            <h2>Restaurant</h2>
+          </a>
+        </li>
+        <li>
+          <a href="product-listing/index.html?category=hammocks">
+            <img src="/images/gas-pump.svg" alt="Hammock Icon from Noun Project: Paul Richard" />
+            <h2>Cooking Gas</h2>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="card" id="chamber-events">
+      <h3>Events</h3>
+      <ul>
+        <li>
+          <strong>Networking Mixer</strong>
+          <p>Date: February 15, 2024 | Time: 6:00 PM - 8:00 PM</p>
+          <p>Location: Ikot Abasi, Ikpe Ikot Akpan</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+        <li>
+          <strong>Small Business Workshop: Marketing Strategies</strong>
+          <p>Date: March 5, 2024 | Time: 9:00 AM - 12:00 PM</p>
+          <p>Location: 20 Calabar Itu Road, Ikot Ekpene</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+        <li>
+          <strong>Annual Chamber Gala</strong>
+          <p>Date: April 20, 2024 | Time: 7:00 PM - 10:00 PM</p>
+          <p>Location: City Convention Center, 789 Gala Blvd, Cityville</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" id="place">
+      <h3>Current Weather</h3>
+      <p>The current temperature in Ikot Ekpene, Nigeria is <span id="current-temp"></span></p>
+      <figure id="weather-icon">
+        <!-- <figcaption></figcaption> -->
+      </figure>
+    </section>
+    <section class="card" id="completion">
+      <h3>Weather Forecast</h3>
+      <div class="forecast-item" id="icon1">
+        <p>Day 1: <span id="dayone"></span> <span id="description1"></span></p>
+      </div>
+      <div class="forecast-item" id="icon2">
+        <p>Day 2: <span id="daytwo"></span> <span id="description2"></span></p>
+      </div>
+      <div class="forecast-item" id="icon3">
+        <p>Day 3: <span id="daythree"></span> <span id="description3"></span></p>
+      </div>
+    </section>
+    <div class="newsletter-signup">
+      <h2>Sign Up for Our Newsletter!</h2>
+      <p>Stay updated with the latest news and offers.</p>
+      <form action="thank-you.html" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Sign Up</button>
+      </form>
+  </main>
+  <footer id="mainfooter"></footer>
+</body>
+
+</html>
