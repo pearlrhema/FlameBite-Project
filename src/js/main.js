@@ -2,9 +2,9 @@ import { loadHeaderFooter } from "./utils.mjs";
 
 loadHeaderFooter();
 
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+// const currentTemp = document.querySelector('#current-temp');
+// const weatherIcon = document.querySelector('#weather-icon');
+// const captionDesc = document.querySelector('figcaption');
 
 const apiKey = '6b70cd58810743af1f00f42a0ac56a1c'; // Your OpenWeatherMap API key
 const latitude = '5.1755'; // Ikot Ekpene, Nigeria latitude

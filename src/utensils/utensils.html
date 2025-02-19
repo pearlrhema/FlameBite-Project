@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstration of Responsive Behavior page.">
+    <meta name="author" content="Godwin Akpan Essien">
+    <title>FlameBite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js" type="module"></script>
+
+</head>
+
+<body>
+    <header class="divider" id="mainheader"><button id="menu"></button></header>
+    <main id="gridly">
+        <h2>Select from our Top productc</h2>
+
+        <select id="sortBy" title="Choose a data filter.">
+            <option value="" disabled selected>Choose Category</option>
+            <option value="stove"> stove</option>
+            <option value="cylinder">cylinder</option>
+            <option value="burner">utensils</option>
+        </select>
+
+        <div id="Delicacies">
+        </div>
+    </main>
+
+
+    <!-- <footer>
+    &copy;<span id="year"></span> | Final Project WDD131
+  </footer> -->
+    <footer id="mainfooter"></footer>
+    <script src="scripts/main.js"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="../js/utensils.js"></script>
+</body>
+
+</html>
