@@ -124,6 +124,8 @@ function displayForcast(data) {
     });
 }
 
+
+
 forcastFetch();
 weatherFetch();
 
